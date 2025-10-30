@@ -1,3 +1,16 @@
 <template>
+  <lightning-card  title="Dynamic Form">
+    <lightning-combobox
+    name="progress"
+    label="Select Parent Account"
+    
+    placeholder="Select Progress"
+    options={finalResult}
+    value={value}
+
+    onchange={handleChange} ></lightning-combobox>
+    
+
+  </lightning-card>
     
 </template>
