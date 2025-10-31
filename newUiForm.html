@@ -7,9 +7,54 @@
     placeholder="Select Progress"
     options={finalResult}
     value={value}
-
-    onchange={handleChange} ></lightning-combobox>
+    required="true"
+    message-when-value-missing="Please select a Parent Account"
+    onchange={handleChangeParentAccount} ></lightning-combobox>
     
+    <lightning-input 
+      type="text"
+      label="Account Name" 
+      required="true"
+      message-when-value-missing="Please enter a Account Name"
+      onchange={handleChangeAccount}
+    ></lightning-input>
+    <lightning-input 
+      type="date" 
+      name="input1" 
+      label="SLA Expiration Date" 
+      required="true"
+      message-when-value-missing="Please enter a SLA Expiration Date" 
+      onchange={handleChangeSLAExpirationDate}
+    ></lightning-input>
+    <lightning-radio-group name="radioGroup"
+    label="Radio Group"
+    options={radiobuttonoptions}
+    required="true"
+    message-when-value-missing="Please select a SLA Type"
+    onchange={handleChangeRadio}
+    type="button"></lightning-radio-group>
+
+    <lightning-slider 
+       
+      label="Number of Location" 
+      max="50"
+      min="0"
+      
+      step="1"
+      type="horizontal"
+      value={val}
+      variant="standard"
+
+      onchange={handleChangeSlider}
+    ></lightning-slider>
+
+    <lightning-input-rich-text
+      label="Description"
+      label-visible="True"
+      onchange={handleChangeRichText}
+    ></lightning-input-rich-text>
+
+    <lightning-button label="Save" onclick={handleSave}></lightning-button>
 
   </lightning-card>
     
