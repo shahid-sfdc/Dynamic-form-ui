@@ -25,7 +25,14 @@ The form includes all key Account fields such as:
 - Retrieved and logged the **newly created Account ID** once the record was inserted successfully.
 
 - 🖼️ Screenshot
-<img width="479" height="412" alt="Screenshot 2025-10-30 at 7 14 19 PM" src="https://github.com/user-attachments/assets/ce08558c-7145-43ee-9ea0-9c4a7a86aee2" />
+<img width="463" height="601" alt="Screenshot 2025-11-01 at 11 53 42 AM" src="https://github.com/user-attachments/assets/a9ba0196-cb49-480e-bc84-5821ae5fc8db" />
+<img width="479" height="596" alt="Screenshot 2025-11-01 at 11 54 17 AM" src="https://github.com/user-attachments/assets/907a0564-9d65-47b8-a0a9-f838b6bcfd70" />
+<img width="1419" height="578" alt="Screenshot 2025-11-01 at 11 54 39 AM" src="https://github.com/user-attachments/assets/eb42e199-4d38-4ac7-a9ff-11ee3909de50" />
+<img width="951" height="643" alt="Screenshot 2025-11-01 at 11 55 10 AM" src="https://github.com/user-attachments/assets/410e90ee-e321-425e-87d6-3d69be925f16" />
+
+
+
+
 
 
 
