@@ -1,7 +1,0 @@
-public with sharing class FetchAccountValues {
-    @AuraEnabled(cacheable=true)
-    public static List<Account> FetchAccountValues() {
-            List<Account> kbc = [SELECT Name FROM Account WHERE AnnualRevenue != null WITH USER_MODE];
-            return kbc;
-    }
-}
