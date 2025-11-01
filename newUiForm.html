@@ -1,5 +1,5 @@
 <template>
-  <lightning-card  title="Dynamic Form">
+  <lightning-card  title="Create Account(Dynamic Form)">
     <lightning-combobox
     name="progress"
     label="Select Parent Account"
@@ -27,7 +27,7 @@
       onchange={handleChangeSLAExpirationDate}
     ></lightning-input>
     <lightning-radio-group name="radioGroup"
-    label="Radio Group"
+    label="SLA Type"
     options={radiobuttonoptions}
     required="true"
     message-when-value-missing="Please select a SLA Type"
